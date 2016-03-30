@@ -56,3 +56,7 @@ a {
 img {
   min-width: 640px;
 }
+
+.nupost {
+  padding-left: 10px;
+}
