@@ -1,0 +1,13 @@
+<div class="jumbotron">
+<h2 id="title">Beyoncé Blog</h2>
+</div>
+<h4>All the news about yr favorite Queen B</h4>
+
+
+  {{#each model as |post|}}
+    {{post-tile post=post update="update" destroyPost="destroyPost"}}
+  {{/each}}
+
+<div class="container">
+  {{new-post save2="save3"}}
+</div>
