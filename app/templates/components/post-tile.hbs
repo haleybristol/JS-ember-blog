@@ -1,7 +1,11 @@
-<div class="container">
+<div class="container post">
   <h3>{{post.title}}</h3>
   <h5>By {{post.author}}</h5>
   <img src={{post.image}}>
+  <br>
+  <div class="category">
+  Category: {{post.category}}
+  </div>
+  <br>
+  <button class="update-button" {{action 'delete' post}}><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button> <div class="update-button">{{update-post post=post update=update}}</div>
 </div>
-&nbsp;&nbsp;&nbsp;&nbsp;Category: {{post.category}} ||{{update-post post=post update=update}} <button {{action 'delete' post}}>Delete</button>
-<hr>

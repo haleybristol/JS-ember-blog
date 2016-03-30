@@ -2,3 +2,53 @@ footer {
   margin-top: 20px;
   text-align: center;
 }
+
+body {
+  background-image: url("http://static.tumblr.com/18504763207ba10051412eb94a65d676/z26cnwz/8O1nz1q2j/tumblr_static_2nyktvkdo5k4kc08ooc8cw0sc_2048_v2.gif");
+  color: black;
+}
+
+button {
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  margin: 10px;
+}
+input {
+  color: black;
+}
+
+.jumbotron {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.white {
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+
+#new-post {
+  width: 100%;
+  height: 60px;
+  margin: auto 0;
+}
+
+.post {
+  background-color: rgba(255, 255, 255, 1.0);
+  margin-bottom: 50px;
+  border: 10px solid black;
+}
+
+.update-button {
+  float: right;
+}
+
+.category {
+  float: left;
+  padding-top: 8px;
+}
