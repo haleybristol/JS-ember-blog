@@ -52,3 +52,7 @@ a {
   float: left;
   padding-top: 8px;
 }
+
+img {
+  min-width: 640px;
+}
