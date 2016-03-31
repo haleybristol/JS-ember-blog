@@ -1,0 +1,20 @@
+
+  <h3>{{post.title}}</h3>
+  <h5>By {{post.author}}</h5>
+  <img src={{post.image}}>
+  <br>
+  <div class="category">
+  Category: {{post.category}}
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+  <ul>
+  {{#each post.comments as |comment|}}
+    <li>{{comment.name}}</li>
+    <ul><li>"{{comment.body}}"</li></ul>
+  {{/each}}
+  </ul>
+</div>
+  <br>

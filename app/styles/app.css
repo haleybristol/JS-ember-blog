@@ -27,9 +27,11 @@ input {
 .white {
   background-color: black;
 }
-
-a {
+li a{
   color: white;
+}
+a {
+  color: black;
 }
 
 #new-post {

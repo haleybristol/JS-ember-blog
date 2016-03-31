@@ -1,5 +1,5 @@
 <div class="container post">
-  <h3>{{post.title}}</h3>
+  <h3>{{#link-to 'post' post.id}}{{post.title}}{{/link-to}}</h3>
   <h5>By {{post.author}}</h5>
   <img src={{post.image}}>
   <br>
