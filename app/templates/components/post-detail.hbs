@@ -14,7 +14,11 @@
   {{#each post.comments as |comment|}}
     <li>{{comment.name}}</li>
     <ul><li>"{{comment.body}}"</li></ul>
+    {{update-comment comment=comment update="update"}}
+    <button {{action 'delete' comment}}>Delete</button>
   {{/each}}
+
+
   </ul>
 </div>
   <br>
